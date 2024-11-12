@@ -1,0 +1,20 @@
+# .gitignore
+
+# Секретные файлы
+.env
+
+# Бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Кэш Go и зависимости
+/go/
+/vendor/
+*.log
+
+# Файлы сборки IDE
+*.idea/
+*.vscode/
